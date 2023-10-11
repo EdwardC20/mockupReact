@@ -160,4 +160,12 @@ body{
     font-size: 14px;
     font-family: "Nunito", sans-serif;
 }
+.imgSize{
+    list-style: none;
+}
+.imgSize > li > button > img{
+    width: 100px;
+    height:90px;
+}
+
 
