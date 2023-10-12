@@ -168,6 +168,18 @@ body{
     height:90px;
 }
 
+.filterInput{
+    margin-right: 50em;
+    margin-bottom: 15px;
+
+}
+
+.filterInput{
+    margin-right: 50em;
+    margin-bottom: 15px;
+
+}
+
 .atraccion-content {
     display: flex;
     flex-direction: column;
@@ -178,9 +190,9 @@ body{
     border-radius: 20px;
     background-color: #f2fff1;
     font-family: var(--font);
-
     
 }
+
 
 .detalles-atraccion {
     padding: 0 40px;
