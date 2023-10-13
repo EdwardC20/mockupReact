@@ -20,3 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
     filterInput.addEventListener('input', filterCards);
     filterCards();
 });
+
+function filterIcon(name) {
+    const cardContainer = document.getElementById('cardContainer');
+    const cards = cardContainer.querySelectorAll('.col');
+
+    cards.forEach((card) => {
+        const cardTitle = card.querySelector('.card-title').textContent.toLowerCase();
+
+        if (!name || cardTitle.includes(name)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
